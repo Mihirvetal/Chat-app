@@ -11,5 +11,12 @@ sendBtn.addEventListener("click", ()=>{
 
     if (username && message){
         socket.emit('chat message', `${username} : ${message}`)
+        msgInput.value =""
     }
+})
+
+socket.on('chat message' , (msg)=>{
+    const msgbody = document.createElement('div')
+    msgbody.textContent= msg;
+    chatDisplay.appendChild(msgbody)
 })

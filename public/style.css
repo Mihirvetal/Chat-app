@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.message-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    
+    background-color: whitesmoke ;
+}
+
+.input-field{
+    width: 100%;
+    
+}
