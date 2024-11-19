@@ -12,11 +12,48 @@ body{
     padding: 20px;
     max-width: 400px;
     margin: auto;
-    
     background-color: whitesmoke ;
 }
 
 .input-field{
     width: 100%;
-    
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+
+
+}
+
+.messages{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    height: 200px;
+
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(226, 220, 220);
+}
+
+#send{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(252, 55, 55);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+
+}
+
+#send:hover{
+    background-color:rgb(23, 217, 235);
+
+}
+
+
+@media(max-width : 768px){
+    .message-container{
+        max-width: 100%;
+    }
 }
